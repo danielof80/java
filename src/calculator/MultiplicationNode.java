@@ -8,6 +8,8 @@ package calculator;
  *
  * @author usuario
  */
-public class MultiplicationNode {
-    
+public class MultiplicationNode extends OperatorNode {
+    public double evaluate() {
+    return left.evaluate() * right.evaluate();
+    }
 }

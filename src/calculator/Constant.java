@@ -8,6 +8,9 @@ package calculator;
  *
  * @author usuario
  */
-public class OperatorNode {
-    
+public class Constant {
+    private double value;
+    public double evaluate() {
+    return value;
+    }
 }

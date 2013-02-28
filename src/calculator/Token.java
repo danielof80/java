@@ -8,6 +8,6 @@ package calculator;
  *
  * @author usuario
  */
-public class UnaryNode {
-    
+public  abstract class Token {
+    public abstract double evaluate();
 }

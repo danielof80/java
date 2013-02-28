@@ -8,6 +8,7 @@ package calculator;
  *
  * @author usuario
  */
-public class ConstantNode {
-    
+public abstract class Operator {
+    private Node left;
+    private Node right;
 }
